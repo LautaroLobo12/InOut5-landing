@@ -63,7 +63,7 @@
   <!-- Hero -->
   <header id="header">
     <div class="hero-image">
-      <img src="img/hero-mobile.png" alt="InOut Hero Image" class="img-fluid d-block d-md-none" />
+      <img src="img/banner.png" alt="InOut Hero Image" class="img-fluid d-block d-md-none" />
       <div class="hero-container d-none d-md-block">
         <div id="heroImage">
           <img src="img/banner.png" alt="Hero Image" class="img-fluid background" />
@@ -72,14 +72,14 @@
     <div class="container position-relative mt-4 mt-lg-0 mb-lg-5">
       <div class="d-flex justify-content-center flex-column flex-md-row align-items-center">
         <div class="header-text mx-lg-5 text-center text-md-left">
-          <div class="subtitle">Fifth Edition</div>
-          <div class="title mt-2">12 - 14 October, 2018 | Bangalore, India</div>
+          <div class="subtitle">Primera Edición</div>
+          <div class="title mt-2">Noviembre 9, 2019 | FAMAF, UNC</div>
         </div>
         <div class="d-flex flex-column align-items-center mx-md-5 mt-md-0 mt-5">
-          <a class="btn btn-primary btn-lg py-3 px-5 apply-btn" href="https://devfolio.co/">
-            Go to Devfolio Dashboard
+          <a class="btn btn-primary btn-lg py-3 px-5 apply-btn" target="_blank" href="http://eepurl.com/gvQ_kL">
+            Incribite acá! Cupos limitados!
           </a>
-          <div class="timer-text" id="timer">Applications are closed. See you in the next edition!</div>
+          <!-- <div class="timer-text" id="timer">Cupos llenos. Nos vemos en la próxima edición!</div> -->
         </div>
       </div>
     </div>
@@ -100,9 +100,6 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#tracks">Tracks</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
@@ -181,24 +178,19 @@
             <div class="card">
               <img src="img/make-friends.jpg" alt="Make friends" class="img-fluid">
               <div class="content">
-                <div class="heading">To make new friends</div>
+                <div class="heading">Para conectar</div>
                 <div class="body">
-                  InOut provides a brilliant opportunity for you and your team to forge professional contacts and make
-                  new
-                  friends. With over 500 developers and designers gathering from all over the country in Bangalore,
-                  grab
-                  your chance of connecting with people to discuss ideas and opportunities.
+                  En la Famatón tendrás la oportunidad de conocer gente dedicada a tu pasión, el desarrollo de software. Es una perfecta oportunidad para crear lazos profesionales, aprovechá ésta oportunidad de compartir y generar nuevas conexiones!
                 </div>
               </div>
             </div>
           </div>
 
-
           <div class="col-lg-4 col-12 my-3">
             <div class="card">
               <img src="img/to-learn.jpg" alt="To learn" class="img-fluid">
               <div class="content">
-                <div class="heading">To learn</div>
+                <div class="heading">Para aprender</div>
                 <div class="body">
                   Hackathons are a great way to give back to the community. Mentoring beginners is always helpful for
                   them and rewarding for us. We’re going to have mentors from a number of different organizations
@@ -213,11 +205,9 @@
             <div class="card">
               <img src="img/to-build.jpg" alt="To build" class="img-fluid">
               <div class="content">
-                <div class="heading">To build</div>
+                <div class="heading">Para construir</div>
                 <div class="body">
-                  This year we are inviting not just students but everyone to build on ideas of their choice. Watching
-                  software materialize from pure thought, part by part is the closest to experiencing magic we have
-                  ever got to. And we’re excited to see that magic happen all over again!
+                Adivina qué, no es sólo para estudiantes! Cualquiera con una idea y ganas de compartir es bienvenido. Llevar a cabo un gran desarrollo basandose en una simple idea, es un proceso hermoso. Paso a paso es que se generan productos de software de gran calidad, y queremos darles la oportunidad a nuestros asistentes para que puedan transitar este proceso.
                 </div>
               </div>
             </div>
@@ -228,102 +218,6 @@
     </div>
   </section>
 
-  <!-- Tracks -->
-  <section id="tracks">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto text-center text-white">
-          <img class="img-fluid" src="img/title-amazing-tracks.png" alt="Amazing Tracks">
-          <p class="mt-3">
-            Hack on any of these tracks to learn amazing new technology
-          </p>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row track-list mt-5">
-          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
-            data-track="ai">
-            <img src="img/track-ai.png" alt="AI">
-            <div class="title mt-1">Artificial Intelligence</div>
-            <div class="subtitle mt-1">Learn More</div>
-          </button>
-          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
-            data-track="blockchain">
-            <img src="img/track-blockchain.png" alt="Blockchain">
-            <div class="title mt-1">Blockchain</div>
-            <div class="subtitle mt-1">Learn More</div>
-          </button>
-          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
-            data-track="iot">
-            <img src="img/track-iot.png" alt="IoT">
-            <div class="title mt-1">Internet of Things</div>
-            <div class="subtitle mt-1">Learn More</div>
-          </button>
-          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
-            data-track="algorithm">
-            <img src="img/track-algorithm.png" alt="Algorithm">
-            <div class="title mt-1">Algorithm</div>
-            <div class="subtitle mt-1">Learn More</div>
-          </button>
-          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
-            data-track="fintech">
-            <img src="img/track-fintech.png" alt="FinTech">
-            <div class="title mt-1">FinTech</div>
-            <div class="subtitle mt-1">Learn More</div>
-          </button>
-          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
-            data-track="future-mobility">
-            <img src="img/track-future-mobility.png" alt="Future Mobility">
-            <div class="title mt-1">Future Mobility</div>
-            <div class="subtitle mt-1">Learn More</div>
-          </button>
-          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
-            data-track="healthtech">
-            <img src="img/track-healthtech.png" alt="HealthTech">
-            <div class="title mt-1">HealthTech</div>
-            <div class="subtitle mt-1">Learn More</div>
-          </button>
-          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
-            data-track="ml">
-            <img src="img/track-ml.png" alt="ML">
-            <div class="title mt-1">Machine Learning</div>
-            <div class="subtitle mt-1">Learn More</div>
-          </button>
-          <button class="btn col-lg-4 col-md-6 track-item" type="button" data-toggle="modal" data-target="#trackModal"
-            data-track="ar-vr">
-            <img src="img/track-ar-vr.png" alt="AR-VR">
-            <div class="title mt-1">AR &sol; VR</div>
-            <div class="subtitle mt-1">Learn More</div>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Tracks Modal -->
-    <div class="modal fade" id="trackModal" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-          <div class="d-flex">
-            <div class="modal-text">
-              <div class="modal-header">
-                <span class="modal-title">Track title</span>
-              </div>
-              <div class="modal-body">
-                Track body
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn" id="nextTrack">Next track</button>
-              </div>
-            </div>
-            <div class="track-img d-none d-lg-block"></div>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Schedule -->
   <section id="schedule">
